@@ -26,7 +26,7 @@ public class TelegramBot extends TelegramLongPollingBot {
         return password.toString();
     }
 public TelegramBot() {
-super("8480823680:AAFGBthyD-wjY0mlls1nyCvwzk0OW70yg4o");
+super("BOT_TOKEN");
 }
 
 public static void main(String[] args) throws TelegramApiException {
@@ -43,7 +43,7 @@ return "MyPasswordGeneratorBot";
 
 @Override
 public String getBotToken() {
-return "8480823680:AAFGBthyD-wjY0mlls1nyCvwzk0OW70yg4o";
+return "BOT_TOKEN";
 }
 
 @Override
